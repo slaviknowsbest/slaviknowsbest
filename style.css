@@ -1,0 +1,140 @@
+/* STYLES.CSS */
+
+
+html,
+body {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
+    
+}
+
+/* COVER */
+
+#cover {
+    background: #222 url('img/iron-dark.jpg') center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#cover-caption {
+    width: 100%;
+}
+
+.linebreak {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.buttonfontsize {
+
+     font-size: 13px !important;
+}
+
+.headfontsize {
+    font-size: 36px;
+    letter-spacing: 5px;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+
+.subheadfontsize {
+    font-size: 11px;
+    letter-spacing: 5px;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+
+.headbutton {
+    font-size: 11.5px;
+    letter-spacing: 3px;
+    font-weight: 300;
+}
+
+.fontbold {
+    font-weight: bold;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.planbox {
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+ 
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn-block {
+    outline: 0 none;
+}
+ 
+.btn-primary, .btn-block {
+    background: #0ea5dd;
+    color: #ffffff;
+    border-color: #33C3F0;
+}
+ 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-block, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #4faed2;
+}
+ 
+.btn-primary:active, .btn-primary.active, .btn-block {
+    background: #0ea5dd;
+    box-shadow: none;
+}
+
+.card-primary {
+    background: #0ea5dd;
+    color: #ffffff;
+    border-color: #33C3F0;
+}
+
+.borderradius {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#cover  {
+    height: 85%;
+}
+
+/* FOOTER */
+
+.foot { 
+    display: inline-block; 
+    line-height: 55px; 
+    vertical-align: top;
+    color: silver;
+    font-size: 13px;
+    text-align: right;
+}
+
+.img { 
+    display: inline-block;  
+}
+
+.menu-color {
+    background-color: #131212;
+}
+
+.footer-color {
+    background-color: #131212;
+    padding: 30px 0 30px 0;
+}
+.navbar {
+    background-color: transparent;
+    background: transparent;
+    border-width: 0px;
+}
